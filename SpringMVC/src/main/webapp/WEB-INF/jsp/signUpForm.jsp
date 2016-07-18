@@ -14,7 +14,7 @@
 	src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<title>Sign up User</title>
+<title>Sign Up Here</title>
 <!-- Bootstrap CSS -->
 <%-- <link href="<c:url value="/resources/css/bootstrap.min.css" />" rel="stylesheet"> --%>
 <link rel="stylesheet"
@@ -29,7 +29,7 @@
 	<div class="container myrow-container">
 		<div class="panel panel-success">
 			<div class="panel-heading">
-				<h3 class="panel-title">Sign up User</h3>
+				<h3 class="panel-title">Enter Required Fields</h3>
 			</div>
 			<div class="panel-body">
 				<form:form id="signUpForm" cssClass="form-horizontal"
@@ -68,7 +68,7 @@
 							<form:label path="password">Password</form:label>
 						</div>
 						<div class="col-xs-6">
-							<form:input cssClass="form-control" path="password" />
+							<form:password cssClass="form-control" path="password" />
 						</div>
 					</div>
 

@@ -52,7 +52,7 @@
 						</div>
 						<div class="col-xs-6">
 
-							<form:input cssClass="form-control" path="password" />
+							<form:password cssClass="form-control" path="password" />
 
 						</div>
 					</div>

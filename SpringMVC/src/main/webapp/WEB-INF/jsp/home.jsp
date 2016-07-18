@@ -27,7 +27,10 @@
 	<div class="container myrow-container">
 		<div class="panel panel-success">
 			<div class="panel-heading">
-				<h3 class="panel-title">Welcome </h3>${firstName}
+
+				<h3 class="panel-title">
+					Welcome
+					<%=request.getAttribute("firstName") + " " + request.getAttribute("lastName")%></h3>
 			</div>
 			<div class="panel-body"></div>
 		</div>
