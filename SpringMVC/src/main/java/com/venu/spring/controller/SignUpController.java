@@ -19,7 +19,7 @@ public class SignUpController {
 	@Autowired
 	private SignUpService signUpService;
 
-	@RequestMapping("showHome")
+	@RequestMapping("signUp")
 	public ModelAndView signUpUser(@ModelAttribute User user) {
 		// ModelAndView modelAndView = new ModelAndView("signUpForm");
 		return new ModelAndView("signUpForm");

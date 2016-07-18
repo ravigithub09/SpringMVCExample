@@ -24,7 +24,8 @@ public class SignInController {
 	public ModelAndView loginUser(@ModelAttribute User user) {
 		// ModelAndView modelAndView = new ModelAndView("signUpForm");
 		if (user.getEmailId().length() == 0) {
-			return new ModelAndView("signUpForm");
+			
+			return new ModelAndView("redirect:signUp");
 		}
 		User userObject = signInService.signIn(user);
 		ModelAndView modelAndView = new ModelAndView("home");
